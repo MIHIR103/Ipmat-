@@ -32,8 +32,7 @@ h1 {
 st.markdown("<h1>🚀 IPMAT AI PREP PRO</h1>", unsafe_allow_html=True)
 
 # ---------- HUGGING FACE API ----------
-HF_API_URL = "https://api-inference.huggingface.co/models/mistralai/Mistral-7B-Instruct-v0.2"
-
+HF_API_URL = "https://api-inference.huggingface.co/models/google/flan-t5-large"
 headers = {
     "Authorization": f"Bearer {st.secrets['HF_TOKEN']}"
 }
